@@ -6,7 +6,11 @@ more at modelling and structure.
 ## Functional Requirements
 - A user can enter one of 3 inputs: paper, rock or scissors.
 - The computer will choose one input at random.
-- The game rules will be applied and a winner is chosen: Paper beats Rock; Rock beats Scissors; Scissors beats Paper. The same input is a tie. 
+- The game rules will be applied and a winner is chosen: 
+* Paper beats Rock
+* Rock beats Scissors
+* Scissors beats Paper. 
+* The same input is a tie. 
 - The game will repeat until the user explictly chooses to exit.
 - On exit a summary of games won, lost, and tied.
 
