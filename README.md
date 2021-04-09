@@ -1,9 +1,11 @@
 # Paper Rock Scissors Exercise
 
-The following is a small exercise to get an idea of your coding and design skills. It's intentionally not an algorithmically complex problem, so we're looking 
-more at modelling and structure. 
+The following is a small exercise to get an idea of your coding and design skills. We would like you to develop a simple interactive game of [Paper Rock Scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors)
+
+It's intentionally not an algorithmically complex problem, so we're looking more at modelling and structure. We are trying to get a feel for how you code in a professional setting.
 
 ## Functional Requirements
+* The user is presented with a CLI to play the game. 
 * A user can enter one of 3 inputs: paper, rock or scissors.
 * The computer will choose one input at random.
 * The game rules will be applied and a winner is chosen: 
@@ -12,7 +14,7 @@ more at modelling and structure.
   - Scissors beats Paper. 
   - The same input is a tie. 
 * The game will repeat until the user explictly chooses to exit.
-* On exit a summary of games won, lost, and tied.
+* On exit a summary is displayed of games won, lost, and tied.
 
 ## Non-Functional Requirements
 * Create a branch of this repo and submit your solution as a PR. 
