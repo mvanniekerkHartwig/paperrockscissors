@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import static com.hw.rockpaperscissors.game.model.GameHand.*;
 
-final class HandProcessor {
+public final class HandProcessor {
     // Maps each hand to the inferior hand
     private static final Map<GameHand, GameHand> winnerToLoserHandMap;
 
